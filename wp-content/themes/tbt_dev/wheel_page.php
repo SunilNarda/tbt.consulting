@@ -7,7 +7,9 @@
 
 <div id="wheel_wrapper">
     <div class="wheel_part1">
+        <div class="absoluteCircleImg">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/cause.png" alt="CAUSE">
+        </div>
       </div>
       <div class="wheel_part2">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/clarity.png" alt="CLARITY">
