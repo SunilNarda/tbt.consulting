@@ -249,3 +249,55 @@ display:none;
   height: auto;
 
 }
+
+ /* <<<<< Wheel >>>>>> */
+
+ #wheel_wrapper{
+	 width:400px;
+	 height:400px;
+	 background-color:white;
+	 -moz-transform: rotate(deg);
+	 -ms-transform: rotate(deg);
+	 -o-transform: rotate(deg);
+	 -webkit-transform: rotate(deg);
+	 transform: rotate(deg);
+		display: flex;
+		flex-wrap: wrap;
+
+ }
+
+.wheel_part1{
+	width: 50%;
+	-moz-transform: rotate(deg);
+	-ms-transform: rotate(deg);
+	-o-transform: rotate(deg);
+	-webkit-transform: rotate(deg);
+	transform: rotate(deg);
+}
+
+.wheel_part2{
+	width: 50%;
+	-moz-transform: rotate(deg);
+	-ms-transform: rotate(deg);
+	-o-transform: rotate(deg);
+	-webkit-transform: rotate(deg);
+	transform: rotate(deg);
+}
+
+.wheel_part3{
+	width: 50%;
+	-moz-transform: rotate(deg);
+	-ms-transform: rotate(deg);
+	-o-transform: rotate(deg);
+	-webkit-transform: rotate(deg);
+	transform: rotate(deg);
+}
+
+.wheel_part4{
+	width: 50%;
+	-moz-transform: rotate(deg);
+	-ms-transform: rotate(deg);
+	-o-transform: rotate(deg);
+	-webkit-transform: rotate(deg);
+	transform: rotate(deg);
+}
