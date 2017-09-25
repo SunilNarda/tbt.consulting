@@ -1,0 +1,157 @@
+@font-face {
+	font-family: adam_gc;
+	src: local('adam_gc'),
+		url("fonts/adam_gc.otf");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: MarselisSlabOT-Black;
+	src: local('MarselisSlabOT-Black'),
+		url("fonts/MarselisSlabOT-Black.otf");
+		font-weight: normal;
+}
+
+@font-face {
+	font-family: TTHazelnuts-Medium;
+	src: local('TTHazelnuts-Medium'),
+	url("fonts/TTHazelnuts-Medium.otf");
+	font-weight: normal;
+}
+
+@media only screen and (max-width: 1550px) {
+#navi_wrapper {
+    height: 19%;
+  }
+
+#logo img {
+    width: 90%;
+    height: auto;
+    padding-top: 0.5em;
+  }
+
+#responsive-menu-button {
+  top:35px !important;
+}
+
+}
+
+@media only screen and (max-width: 1350px){
+#navi_wrapper {
+  height: 19% !important;
+}
+
+
+}
+
+@media only screen and (max-width: 1200px ) {
+
+  .pfeil_rechts {display:none;}
+  .pfeil_links {display: none;}
+
+html {font-size:80%;}
+
+#navi {
+  width: 80%;
+  height: auto;
+}
+
+#logo img {
+  width: 80%;
+  height: auto;
+
+}
+
+#navi_wrapper {
+  height: 16%;
+}
+
+
+}
+
+@@media only screen and (max-width: 786px) {
+
+  #logo img {
+   width: 50%;
+   height: auto;
+   padding-top: 2em;
+  }
+
+  .pfeil_links { display: none;}
+  .pfeil_rechts{ display: none;}
+
+  #navi_wrapper {
+    height: 16%;
+  }
+
+  #fullwidth img {
+    width: 80%;
+    height: auto;
+    padding-top: 20%;
+  }
+
+}
+
+@media only screen and (max-width: 520px ) {
+
+  #navi_wrapper {
+    height: 16%;
+  }
+
+.sow-headline {
+  font-size: 200% !important;
+  line-height: normal !important;
+}
+
+#fullwidth img {
+  width: 80%;
+  height: auto;
+  padding-top: 20%;
+}
+
+.content_block_links {
+  text-align:left;
+  padding-left: 1.2em;
+  padding-right: 1em;
+}
+
+.content_block_mitte {
+  padding-left: 1em !important;
+  padding-right: 0.5em !important;
+}
+
+.content_block_rechts > div:nth-child(1) > div:nth-child(1) > p:nth-child(1)
+{ padding-left: 1em;}
+
+.content_spacer {
+  display: none;
+}
+
+.so-widget-image {
+  padding-left: 2.2em;
+}
+
+.sow-image-container {
+  padding-left: 2.2em;
+}
+
+.so-widget-sow-image-default-2daac9b0bc02 > div:nth-child(1) > img:nth-child(1)
+{
+  padding-left: 3em;
+}
+
+#panel-8-1-3-1 {
+  padding-left: 30%;
+}
+
+.content_spacer_2 {
+  display: none;
+}
+
+.wp-image-104 {
+  width: 100%;
+  height: auto;
+}
+
+
+}
