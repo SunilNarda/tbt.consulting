@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $("#wheelie1").click(function(){
+        $("#wheel_wrapper").addClass("rotated90deg");
+    });
+    $("#wheelie2").click(function(){
+        $("#wheel_wrapper").addClass("rotated135deg");
+    });
+    $("#wheelie3").click(function(){
+        $("#wheel_wrapper").addClass("rotated180deg");
+    });
+    $("#wheelie4").click(function(){
+        $("#wheel_wrapper").addClass("rotated225deg");
+    });
+});

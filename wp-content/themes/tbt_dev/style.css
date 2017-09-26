@@ -204,7 +204,7 @@ display:none;
 .content_block_links{
 	font-family : TTHazelnuts-Medium;
 	font-weight : normal;
-	text-align: justify;
+	text-align: center;
 	font-size : 1em;
 	line-height : 1em;
 	color : #000000;
@@ -253,6 +253,8 @@ display:none;
  /* <<<<< Wheel >>>>>> */
 
  #wheel_wrapper{
+	 padding-top:15%;
+	 padding-left:40%;
 	 width:400px;
 	 height:400px;
 	 background-color:white;
@@ -263,41 +265,68 @@ display:none;
 	 transform: rotate(deg);
 		display: flex;
 		flex-wrap: wrap;
+		/* This timing applies on the way OUT */
+	  transition-timing-function: ease-in;
 
+	  /* Quick on the way out */
+	  transition: 0.2s;
  }
+
+.rotated90deg{
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.rotated135deg{
+	-moz-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
+}
+
+.rotated180deg{
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.rotated225deg{
+	-moz-transform: rotate(225deg);
+	-ms-transform: rotate(225deg);
+	-o-transform: rotate(225deg);
+	-webkit-transform: rotate(225deg);
+	transform: rotate(225deg);
+}
 
 .wheel_part1{
 	width: 50%;
-	-moz-transform: rotate(deg);
-	-ms-transform: rotate(deg);
-	-o-transform: rotate(deg);
-	-webkit-transform: rotate(deg);
-	transform: rotate(deg);
+	position: relative;
+    left: 30px;
 }
+
 
 .wheel_part2{
 	width: 50%;
-	-moz-transform: rotate(deg);
-	-ms-transform: rotate(deg);
-	-o-transform: rotate(deg);
-	-webkit-transform: rotate(deg);
-	transform: rotate(deg);
+	position: relative;
+	left: -5px;
 }
 
 .wheel_part3{
 	width: 50%;
-	-moz-transform: rotate(deg);
-	-ms-transform: rotate(deg);
-	-o-transform: rotate(deg);
-	-webkit-transform: rotate(deg);
-	transform: rotate(deg);
+	position: relative;
+  left: 30px;
+  bottom: 65px;
 }
 
 .wheel_part4{
 	width: 50%;
-	-moz-transform: rotate(deg);
-	-ms-transform: rotate(deg);
-	-o-transform: rotate(deg);
-	-webkit-transform: rotate(deg);
-	transform: rotate(deg);
+	position: relative;
+	left: -35px;
+	bottom: 35px;
 }
