@@ -100,7 +100,8 @@ html {font-size:80%;}
 
 .sow-headline {
   font-size: 200% !important;
-  line-height: normal !important;
+  line-height: normal !important
+	margin-left: -7em;
 }
 
 #fullwidth img {
@@ -137,7 +138,7 @@ html {font-size:80%;}
 
 .so-widget-sow-image-default-2daac9b0bc02 > div:nth-child(1) > img:nth-child(1)
 {
-  padding-left: 3em;
+  padding-left: 6em;
 }
 
 #panel-8-1-3-1 {
@@ -153,5 +154,20 @@ html {font-size:80%;}
   height: auto;
 }
 
+/*
+#kreis {
+	width: 80%;
+	height: auto;
+} */
+
+.kreis_text {
+	width: 80%;
+	height: auto;
+}
+
+.kreis-text img{
+	width: 70%;
+	height: auto;
+}
 
 }
