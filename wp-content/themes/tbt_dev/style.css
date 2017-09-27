@@ -278,12 +278,20 @@ h3 {
 	position: relative;
 }
 
+	#wheel_part1.selected{
+		transform: scale(1.2) translate(-30px,-30px);
+	}
+
 #wheel_part2 {
 	width: 200px;
 	height: 200px;
 	position: relative;
     left: -30px;
 }
+
+	#wheel_part2.selected{
+		transform: scale(1.2) translate(30px,-30px);
+	}
 
 #wheel_part3 {
 	width: 200px;
@@ -293,6 +301,10 @@ h3 {
     bottom: 50px;
 }
 
+	#wheel_part3.selected{
+		transform: scale(1.2) translate(-30px,30px);
+	}
+
 #wheel_part4 {
 	width: 200px;
 	height: 200px;
@@ -301,6 +313,9 @@ h3 {
     bottom: 18px;
 }
 
+	#wheel_part4.selected{
+		transform: scale(1.2) translate(30px,30px)
+	}
 
 /*Klassen für die Rotierung des Kreisels*/
 
@@ -371,6 +386,8 @@ h3 {
 	display: flex;
 	
 }
+
+
 
 
 /* transform: scale(1.3) translate(-30px,-30px); */
