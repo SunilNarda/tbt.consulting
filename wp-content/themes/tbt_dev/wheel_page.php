@@ -13,16 +13,16 @@
 
 <div id="wheel_container">
   <div id="wheel_wrapper">
-      <div class="wheel_part1" id="wheelie1">
+      <div id="wheel_part1">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/cause.png" alt="CAUSE">
         </div>
-        <div class="wheel_part2" id="wheelie2">
+        <div id="wheel_part2">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/clarity.png" alt="CLARITY">
         </div>
-        <div class="wheel_part3" id="wheelie3">
+        <div id="wheel_part3">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/commitment.png" alt="COMMITMENT">
         </div>
-        <div class="wheel_part4" id="wheelie4">
+        <div id="wheel_part4">
           <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/corage.png" alt="COURAGE">
         </div>
   </div>
