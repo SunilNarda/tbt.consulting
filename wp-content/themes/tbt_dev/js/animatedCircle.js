@@ -29,26 +29,31 @@ $(document).ready(function () {
 
 //Rotiert das Rad
 function RotateTheWheel(targetRotation) {
-    //Zuerst alle Klassen entfernen..
+    //Zuerst alle Klassen entfernen vom Wrapper (rotierung löschen) und von den dazugehörigen Textfeldern (alle unsichtbar)..
     $("#wheel_wrapper").removeClass(); //Wenn kein Parameter angegeben, entfert removeClass alle Klassen von dem Objekt
+    $(".wheel_textfield").removeClass("activated");
 
-    //...dann je nach wert den richtigen zuweisen:
+    //...dann je nach wert der geklickt wurde, die richtige Rotierung zuweisen:
     switch (targetRotation) {
 
         case states.Cause:
             $("#wheel_wrapper").addClass("rotated45deg");
+            $("#cause_textfield").addClass("activated");
             break;
 
         case states.Clarity:
             $("#wheel_wrapper").addClass("rotated315deg");
+            $("#clarity_textfield").addClass("activated");
             break;
 
         case states.Commitment:
             $("#wheel_wrapper").addClass("rotated135deg");
+            $("#commitment_textfield").addClass("activated");
             break;
 
         case states.Courage:
             $("#wheel_wrapper").addClass("rotated225deg");
+            $("#courage_textfield").addClass("activated");
             break;
 
 

@@ -28,6 +28,12 @@
   </div>
 </div>
 
+<div id="cause_textfield" class="wheel_textfield">Cause</div>
+<div id="clarity_textfield" class="wheel_textfield">Clarity</div>
+<div id="commitment_textfield" class="wheel_textfield">Commitment</div>
+<div id="courage_textfield" class="wheel_textfield">Courage</div>
+
+
 <div id="content_wrapper">
 <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
