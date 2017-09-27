@@ -7,6 +7,7 @@
         <link rel="profile" href="http://gmpg.org/xfn/11" />
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
         <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
+        <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 <!-- Einbindung Stylesheet -->
 
         <? wp_enqueue_style( 'style', get_stylesheet_uri() ); ?>
@@ -18,6 +19,7 @@
         <?php wp_head(); ?>
 
       </head>
+
 
 <body>
 

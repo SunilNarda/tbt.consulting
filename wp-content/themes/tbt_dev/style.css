@@ -7,131 +7,121 @@ Description: TBT Consulting - Kaltenbacher Consulting Experience
 */
 
 @font-face {
-	font-family: adam_gc;
-	src: local('adam_gc'),
-		url("fonts/adam_gc.otf");
-	font-weight: normal;
+  font-family: adam_gc;
+  src: local('adam_gc'), url("fonts/adam_gc.otf");
+  font-weight: normal;
 }
 
 @font-face {
-	font-family: MarselisSlabOT-Black;
-	src: local('MarselisSlabOT-Black'),
-		url("fonts/MarselisSlabOT-Black.otf");
-		font-weight: normal;
+  font-family: MarselisSlabOT-Black;
+  src: local('MarselisSlabOT-Black'), url("fonts/MarselisSlabOT-Black.otf");
+  font-weight: normal;
 }
 
 @font-face {
-	font-family: TTHazelnuts-Medium;
-	src: local('TTHazelnuts-Medium'),
-	url("fonts/TTHazelnuts-Medium.otf");
-	font-weight: normal;
+  font-family: TTHazelnuts-Medium;
+  src: local('TTHazelnuts-Medium'), url("fonts/TTHazelnuts-Medium.otf");
+  font-weight: normal;
 }
 
-body{
-	margin:0;
-	padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /* <<<<<< Hide IMG Title - Kontakt  >>>>>> */
 
-#panel-10-1-2-0 > div > div > div > img{
-display:none;
+#panel-10-1-2-0>div>div>div>img {
+  display: none;
 }
-
 
 /* <<<<<< Pfeil Navigation >>>>>> */
 
 .pfeil_links {
-		z-index: 9999;
-		position: absolute;
-		left:0;
-		top:50%;
-		min-width: 50px;
-		min-height: 50px;
-
-		-o-transition:.5s;
-	 -ms-transition:.5s;
-	 -moz-transition:.5s;
-	 -webkit-transition:.5s;
-	 transition:.5s;
-
-	 	-webkit-transform: translateY(-30%);
-		-ms-transform: translateY(-30%);
-		transform: translateY(-30%);
+  z-index: 9999;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  min-width: 50px;
+  min-height: 50px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
 }
 
 .pfeil_rechts {
-		z-index: 9999;
-		position: absolute;
-		right:0;
-		top:50%;
-		min-width: 50px;
-		min-height: 50px;
-
-		-o-transition:.5s;
-	 -ms-transition:.5s;
-	 -moz-transition:.5s;
-	 -webkit-transition:.5s;
-	 transition:.5s;
-
-	 	-webkit-transform: translateY(-30%);
-		-ms-transform: translateY(-30%);
-		transform: translateY(-30%);
+  z-index: 9999;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  min-width: 50px;
+  min-height: 50px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%);
 }
-
 
 /* <<<<< Navi + Header >>>>>> */
 
-
-#navi_wrapper{
+#navi_wrapper {
   top: 0px;
   left: 0px;
-	width: 100%;
-	height: 13%;
-	position: fixed;
-	background-color:#950A2B;
-	z-index:9999;
+  width: 100%;
+  height: 13%;
+  position: fixed;
+  background-color: #950A2B;
+  z-index: 9999;
 }
 
 #navi {
-	font-family : adam_gc;
-	font-weight: normal;
-	font-size : 1.600em;
-	color : white;
-	position: relative;
-	left: 10%;
+  font-family: adam_gc;
+  font-weight: normal;
+  font-size: 1.600em;
+  color: white;
+  position: relative;
+  left: 10%;
   right: 20%;
   padding-top: 0.4em;
   padding-right: ;
- }
+}
 
- #navi a{
- 	text-decoration: none;
- 	color: white;
- }
+#navi a {
+  text-decoration: none;
+  color: white;
+}
 
 .menu li {
   list-style: none;
-	text-decoration: none;
-	display: inline;
-  float:left;
-	padding:1%;
- }
+  text-decoration: none;
+  display: inline;
+  float: left;
+  padding: 1%;
+}
 
- #logo {
- 	padding: 0.5em;
-	padding-left: 4em;
- 	float:left;
- }
+#logo {
+  padding: 0.5em;
+  padding-left: 4em;
+  float: left;
+}
 
- /* <<<<< Fullwidth - Center Claim >>>>>> */
+/* <<<<< Fullwidth - Center Claim >>>>>> */
 
-#panel-31-0-0-0 > div > div > ul > li.sow-slider-image.sow-slider-image-cover.cycle-slide.cycle-slide-active > div > div > p {
-	text-align: center;
-	padding-top: 10%;
- }
+#panel-31-0-0-0>div>div>ul>li.sow-slider-image.sow-slider-image-cover.cycle-slide.cycle-slide-active>div>div>p {
+  text-align: center;
+  padding-top: 10%;
+}
 
- /*
+/*
 #panel-208-0-0-0 > div > div > ul > li.sow-slider-image.sow-slider-image-cover.cycle-slide.cycle-slide-active > div > div > p {
 	text-align: center;
 	padding-top: 15%;
@@ -142,187 +132,216 @@ display:none;
 	padding-top: 15%;
 } */
 
-
 /* Platzhalter Seite */
-#panel-218-0-0-0 > div > div > ul > li.sow-slider-image.sow-slider-image-cover.cycle-slide.cycle-slide-active > div > div > p {
-	text-align: center;
+
+#panel-218-0-0-0>div>div>ul>li.sow-slider-image.sow-slider-image-cover.cycle-slide.cycle-slide-active>div>div>p {
+  text-align: center;
   padding-top: 10%;
 }
 
 /* Dummy Seite */
-#panel-226-0-0-0 > div > div > ul > li.sow-slider-image.sow-slider-image-cover.cycle-slide.cycle-slide-active > div > div > p {
-	text-align: center;
-	padding-top: 10%;
+
+#panel-226-0-0-0>div>div>ul>li.sow-slider-image.sow-slider-image-cover.cycle-slide.cycle-slide-active>div>div>p {
+  text-align: center;
+  padding-top: 10%;
 }
 
 /* Investoren Search - Logo Ausrichtung */
 
-#panel-8-1-3-1 > div:nth-child(1) > div:nth-child(1) > p:nth-child(1) {
-	float: right;
-	padding-right: 30%;
+#panel-8-1-3-1>div:nth-child(1)>div:nth-child(1)>p:nth-child(1) {
+  float: right;
+  padding-right: 30%;
 }
 
- h1 {
-	 font-family : MarselisSlabOT-Black;
-	 font-weight : normal;
-	 font-size : 3.15em;
-	 line-height : 2em;
-	 color : #93939A;
-	 padding-left: 7.6em;
+h1 {
+  font-family: MarselisSlabOT-Black;
+  font-weight: normal;
+  font-size: 3.15em;
+  line-height: 2em;
+  color: #93939A;
+  padding-left: 7.6em;
+}
+
+/* Headline About */
+#panel-13-0-0-0 > div > div > div > h1 {
+	color: #950A2B !important;
  }
 
-/* Headline About
- #panel-13-0-0-0 > div > div > h1 {
-	 padding-right: 6.3em;
- } */
+h3 {
+  font-family: adam_gc;
+  font-weight: normal;
+  font-size: 1.2em;
+  line-height: normal;
+  color: #950A2B;
+}
 
- h3 {
-	 font-family: adam_gc;
-	 font-weight: normal;
-	 font-size: 1.2em;
-	 line-height: normal;
-	 color: #950A2B;
- }
-
- #content_wrapper {
-	 padding-top: 200px;
+#content_wrapper {
+  padding-top: 200px;
 }
 
 .content_block_rechts {
-	font-family : adam_gc;
-	font-weight : normal;
-	font-size : 2em;
-	line-height : 1em;
-	color : #950A2B;
+  font-family: adam_gc;
+  font-weight: normal;
+  font-size: 2em;
+  line-height: 1em;
+  color: #950A2B;
 }
 
 .content_block_mitte {
-	font-family : TTHazelnuts-Medium;
-	font-weight : normal;
-	font-size : 1.5em;
-	line-height : 1.3em;
-	color : #000000;
-	padding-left: 7em;
+  font-family: TTHazelnuts-Medium;
+  font-weight: normal;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  color: #000000;
+  padding-left: 7em;
 }
 
-.content_block_mitte a{
-	color:#93939A;
+.content_block_mitte a {
+  color: #93939A;
 }
 
 .content_block_mitte img {
-	float:left;
-	padding-right: 2em;
+  float: left;
+  padding-right: 2em;
 }
 
+.content_block_links {
+  font-family: TTHazelnuts-Medium;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1em;
+  color: #000000;
+}
 
-.content_block_links{
-	font-family : TTHazelnuts-Medium;
-	font-weight : normal;
-	text-align: center;
-	font-size : 1em;
-	line-height : 1em;
-	color : #000000;
+.content_block_links_about {
+  font-family: TTHazelnuts-Medium;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1em;
+  color: #000000;
 }
 
 .content_spacer {
-	height: 19.5em;
+  height: 19.5em;
 }
 
 .content_spacer_2 {
-	height: 7.5em;
-
+  height: 7.5em;
 }
+
 .markup_red {
-	color: #950A2B;
+  color: #950A2B;
 }
 
-.cv_icon img{
-	float: left;
-	padding-right: 1em;
+.cv_icon img {
+  float: left;
+  padding-right: 1em;
 }
 
 .spalten_text {
-	font-family : TTHazelnuts-Medium;
-	font-weight : normal;
-	font-size : 1em;
-	line-height : normal;
-	color : #000000;
-
+  font-family: TTHazelnuts-Medium;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: normal;
+  color: #000000;
 }
 
- /* <<<<< Footer >>>>>> */
+#custom_background {
+  width: 1920px;
+  height: 1080px;
+}
 
- #footer_claim {
-	 padding-top: 2em;
-   width: 100%;
-   height: 40%;
- }
+/* <<<<< Footer >>>>>> */
+
+#footer_claim {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 95vh;
+  z-index: 9999;
+}
 
 #footer_claim img {
   width: 100%;
   height: auto;
+}
 
+/* <<<<< Footer für die About Site >>>>>> */
+
+#footer_claim2 {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 102vh;
+  z-index: 9999;
+}
+
+#footer_claim2 img {
+  width: 100%;
+  height: auto;
 }
 
 #kreis {
-	width: 500px;
-	height: 500px;
-	border-radius: 50%;
-	background-color: rgba(255, 255, 2555, 0.7);
-	z-index:9999;
-	position: absolute;
-	top: calc(50% - 250px);
-	left: calc(50% - 250px);
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 2555, 0.7);
+  z-index: 9999;
+  position: absolute;
+  top: calc(50% - 250px);
+  left: calc(50% - 250px);
 }
 
 .kreis_text {
-	width: 400px;
-	position:absolute;
-	font-family : Marselis Slab OT;
-  font-weight : bold;
-  font-size : 54px;
-  line-height : 72px;
-  color : #950A2B;
-	left: calc(50% - 200px);
+  width: 400px;
+  position: absolute;
+  font-family: Marselis Slab OT;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 72px;
+  color: #950A2B;
+  left: calc(50% - 200px);
   top: calc(55% - 200px);
   text-align: center;
 }
 
 .kreis_text_2 {
-	width: 400px;
-	position:absolute;
-	font-family : Marselis Slab OT;
-  font-weight : bold;
-  font-size : 54px;
-  line-height : 72px;
-  color : #950A2B;
-	left: calc(51% - 200px);
+  width: 400px;
+  position: absolute;
+  font-family: Marselis Slab OT;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 72px;
+  color: #950A2B;
+  left: calc(51% - 200px);
   top: calc(58% - 200px);
   text-align: center;
 }
 
 .kreis_text_3 {
-	width: 400px;
-	position:absolute;
-	font-family : Marselis Slab OT;
-  font-weight : bold;
-  font-size : 54px;
-  line-height : 72px;
-  color : #D17F35;;
-	left: calc(51% - 200px);
+  width: 400px;
+  position: absolute;
+  font-family: Marselis Slab OT;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 72px;
+  color: #D17F35;
+  ;
+  left: calc(51% - 200px);
   top: calc(58% - 200px);
   text-align: center;
 }
 
-
 .kreis_text img {
-	padding-bottom: 2em;
-	padding-left: 0.3em;
+  padding-bottom: 2em;
+  padding-left: 0.3em;
 }
 
- /* <<<<< Ausrichtung Text slide Home >>>>>> */
+/* <<<<< Ausrichtung Text slide Home >>>>>> */
 
 .ausrichtung_text {
-	position: relative;
-	top: 50px;
+  position: relative;
+  top: 50px;
 }
