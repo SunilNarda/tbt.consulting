@@ -11,23 +11,24 @@
   }
 </style>
 
+<div class="flex_container">
+
 <div id="wheel_container">
   <div id="wheel_wrapper">
     <div id="wheel_part1">
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/cause.png" alt="CAUSE">
+      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/cause.svg" alt="CAUSE">
     </div>
     <div id="wheel_part2">
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/clarity.png" alt="CLARITY">
+      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/clarity.svg" alt="CLARITY">
     </div>
     <div id="wheel_part3">
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/commitment.png" alt="COMMITMENT">
+      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/commitment.svg" alt="COMMITMENT">
     </div>
     <div id="wheel_part4">
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/corage.png" alt="COURAGE">
+      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/courage.svg" alt="COURAGE">
     </div>
   </div>
 </div>
-
 
 <div id="wheel_textfelder">
   <div id="cause_textfield" class="wheel_textfield">
@@ -42,6 +43,8 @@
   <div id="courage_textfield" class="wheel_textfield">
     <?php the_field("courage_txt"); ?>
   </div>
+</div>
+
 </div>
 
 <div id="content_wrapper">
