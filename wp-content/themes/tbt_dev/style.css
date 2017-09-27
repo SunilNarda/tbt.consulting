@@ -252,15 +252,21 @@ h3 {
 }
 
 #wheel_wrapper {
-	width: 400px;
-	height: 320px;
-	padding-left: 20px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	display: flex;
-	flex-wrap: wrap;
-	transition-timing-function: ease-in;
-	transition: 0.5s;
+    width: 400px;
+    height: 320px;
+    padding-left: 30px;
+    padding-top: 35px;
+    padding-bottom: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+	box-sizing: content-box;
+}
+
+#wheel_wrapper img {
+    max-width: 200px;
+    max-height: 200px;
 }
 
 
@@ -270,30 +276,29 @@ h3 {
 	width: 200px;
 	height: 200px;
 	position: relative;
-	left: 30px;
 }
 
 #wheel_part2 {
 	width: 200px;
 	height: 200px;
 	position: relative;
-	left: -5px;
+    left: -30px;
 }
 
 #wheel_part3 {
 	width: 200px;
 	height: 200px;
 	position: relative;
-	left: 30px;
-	bottom: 65px;
+    left: -16px;
+    bottom: 50px;
 }
 
 #wheel_part4 {
 	width: 200px;
 	height: 200px;
 	position: relative;
-	left: -35px;
-	bottom: 35px;
+    left: -47px;
+    bottom: 18px;
 }
 
 

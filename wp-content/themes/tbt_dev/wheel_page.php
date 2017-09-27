@@ -13,37 +13,37 @@
 
 <div class="flex_container">
 
-<div id="wheel_container">
-  <div id="wheel_wrapper">
-    <div id="wheel_part1">
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/cause.svg" alt="CAUSE">
-    </div>
-    <div id="wheel_part2">
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/clarity.svg" alt="CLARITY">
-    </div>
-    <div id="wheel_part3">
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/commitment.svg" alt="COMMITMENT">
-    </div>
-    <div id="wheel_part4">
-      <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/courage.svg" alt="COURAGE">
+  <div id="wheel_container">
+    <div id="wheel_wrapper">
+      <div id="wheel_part1">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/cause.svg" alt="CAUSE">
+      </div>
+      <div id="wheel_part2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/clarity.svg" alt="CLARITY">
+      </div>
+      <div id="wheel_part3">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/commitment.svg" alt="COMMITMENT">
+      </div>
+      <div id="wheel_part4">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/courage.svg" alt="COURAGE">
+      </div>
     </div>
   </div>
-</div>
 
-<div id="wheel_textfelder">
-  <div id="cause_textfield" class="wheel_textfield">
-    <?php the_field("cause_txt"); ?>
+  <div id="wheel_textfelder">
+    <div id="cause_textfield" class="wheel_textfield">
+      <?php the_field("cause_txt"); ?>
+    </div>
+    <div id="clarity_textfield" class="wheel_textfield">
+      <?php the_field("clarity_txt"); ?>
+    </div>
+    <div id="commitment_textfield" class="wheel_textfield">
+      <?php the_field("commitment_txt"); ?>
+    </div>
+    <div id="courage_textfield" class="wheel_textfield">
+      <?php the_field("courage_txt"); ?>
+    </div>
   </div>
-  <div id="clarity_textfield" class="wheel_textfield">
-    <?php the_field("clarity_txt"); ?>
-  </div>
-  <div id="commitment_textfield" class="wheel_textfield">
-    <?php the_field("commitment_txt"); ?>
-  </div>
-  <div id="courage_textfield" class="wheel_textfield">
-    <?php the_field("courage_txt"); ?>
-  </div>
-</div>
 
 </div>
 
