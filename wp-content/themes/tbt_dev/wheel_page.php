@@ -5,6 +5,12 @@
 
 <?php get_template_part( 'navigation'); ?>
 
+<style>
+#wheel_wrapper{
+  margin-top:500px;
+}
+</style>
+
 <div id="wheel_wrapper">
     <div class="wheel_part1" id="wheelie1">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/cause.png" alt="CAUSE">
