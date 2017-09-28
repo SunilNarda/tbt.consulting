@@ -5,15 +5,7 @@
 
 <?php get_template_part( 'navigation'); ?>
 
-<<<<<<< HEAD
 <h1><?php the_field("headline"); ?></h1>
-=======
-<style>
-#wheel_wrapper{
-  margin-top:500px;
-}
-</style>
->>>>>>> parent of 74daef7... Merge branch 'kreisanimation'
 
 <div id="wheel_wrapper">
     <div class="wheel_part1" id="wheelie1">

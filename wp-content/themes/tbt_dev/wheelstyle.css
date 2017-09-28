@@ -1,0 +1,143 @@
+/* <<<<< Wheel >>>>>> */
+
+#wheel_container {
+	padding-left: calc(50% - 200px);
+}
+
+#wheel_wrapper {
+    width: 400px;
+    height: 320px;
+    padding-left: 30px;
+    padding-top: 35px;
+    padding-bottom: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+	box-sizing: content-box;
+}
+
+#wheel_wrapper img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+/*Einzelne Wheel-Abschnitte*/
+
+#wheel_part1 {
+	width: 200px;
+	height: 200px;
+	position: relative;
+}
+
+	#wheel_part1.selected{
+		transform: scale(1.2) translate(-30px,-30px);
+	}
+
+#wheel_part2 {
+	width: 200px;
+	height: 200px;
+	position: relative;
+    left: -30px;
+}
+
+	#wheel_part2.selected{
+		transform: scale(1.2) translate(30px,-30px);
+	}
+
+#wheel_part3 {
+	width: 200px;
+	height: 200px;
+	position: relative;
+    left: -16px;
+    bottom: 50px;
+}
+
+	#wheel_part3.selected{
+		transform: scale(1.2) translate(-30px,30px);
+	}
+
+#wheel_part4 {
+	width: 200px;
+	height: 200px;
+	position: relative;
+    left: -47px;
+    bottom: 18px;
+}
+
+	#wheel_part4.selected{
+		transform: scale(1.2) translate(30px,30px)
+	}
+
+/*Klassen für die Rotierung des Kreisels*/
+
+.rotated45deg {
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.rotated315deg {
+	-moz-transform: rotate(315deg);
+	-ms-transform: rotate(315deg);
+	-o-transform: rotate(315deg);
+	-webkit-transform: rotate(315deg);
+	transform: rotate(315deg);
+}
+
+.rotated90deg {
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.rotated135deg {
+	-moz-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
+}
+
+.rotated180deg {
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.rotated225deg {
+	-moz-transform: rotate(225deg);
+	-ms-transform: rotate(225deg);
+	-o-transform: rotate(225deg);
+	-webkit-transform: rotate(225deg);
+	transform: rotate(225deg);
+}
+
+
+/*Klassen für die Textboxen */
+
+.wheel_textfield {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	opacity: 0;
+	transition: 0.7s;
+}
+
+.activated {
+	opacity: 1;
+}
+
+.flex_container{
+	display: flex;
+	
+}
+
+
