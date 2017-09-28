@@ -12,7 +12,7 @@
 
 <div id="custom_background">
 
-<div id="content_wrapper">
+<div id="content_wrapper_2">
 <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
         <? the_content(); ?>

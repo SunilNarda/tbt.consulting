@@ -121,17 +121,6 @@ body {
   padding-top: 10%;
 }
 
-/*
-#panel-208-0-0-0 > div > div > ul > li.sow-slider-image.sow-slider-image-cover.cycle-slide.cycle-slide-active > div > div > p {
-	text-align: center;
-	padding-top: 15%;
-}
-
-#panel-211-0-0-0 > div > div > ul > li.sow-slider-image.sow-slider-image-cover.cycle-slide.cycle-slide-active > div > div > p {
-	text-align: center;
-	padding-top: 15%;
-} */
-
 /* Platzhalter Seite */
 
 #panel-218-0-0-0>div>div>ul>li.sow-slider-image.sow-slider-image-cover.cycle-slide.cycle-slide-active>div>div>p {
@@ -163,9 +152,24 @@ h1 {
 }
 
 /* Headline About */
-#panel-13-0-0-0 > div > div > div > h1 {
-	color: #950A2B !important;
- }
+
+#panel-13-0-0-0>div>div>div>h1 {
+  color: #950A2B !important;
+}
+
+#panel-406-0-0-0>div>div>div>h1 {
+  color: #950A2B !important;
+}
+
+#panel-424-0-0-0>div>div>div>h1 {
+  color: #950A2B !important;
+}
+
+/* Headline - Site Change Management */
+
+#pg-15-0 {
+  margin-top: -16px;
+}
 
 h3 {
   font-family: adam_gc;
@@ -176,7 +180,11 @@ h3 {
 }
 
 #content_wrapper {
-  padding-top: 200px;
+  padding-top: 160px;
+}
+
+#content_wrapper_2 {
+  padding-top: 164px;
 }
 
 .content_block_rechts {
@@ -249,8 +257,13 @@ h3 {
 }
 
 #custom_background {
-  width: 1920px;
-  height: 1080px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  background-position: right;
 }
 
 /* <<<<< Footer >>>>>> */
@@ -259,7 +272,7 @@ h3 {
   width: 100%;
   height: auto;
   position: absolute;
-  top: 95vh;
+  top: 90vh;
   z-index: 9999;
 }
 
@@ -274,7 +287,7 @@ h3 {
   width: 100%;
   height: auto;
   position: absolute;
-  top: 102vh;
+  top: 90vh;
   z-index: 9999;
 }
 
