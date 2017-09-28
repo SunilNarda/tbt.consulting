@@ -15,7 +15,6 @@
 <!-- Font Awesome vom CDN laden -->
                 <? wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'  );?>
                 <script  type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-                <script src="<?php bloginfo('stylesheet_directory'); ?>/js/animatedCircle.js"></script>
 
         <?php wp_head(); ?>
 

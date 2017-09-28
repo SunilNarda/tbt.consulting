@@ -5,50 +5,38 @@
 
 <?php get_template_part( 'navigation'); ?>
 
+<<<<<<< HEAD
 <h1><?php the_field("headline"); ?></h1>
+=======
+<style>
+#wheel_wrapper{
+  margin-top:500px;
+}
+</style>
+>>>>>>> parent of 74daef7... Merge branch 'kreisanimation'
 
-<div class="flex_container">
-
-  <div id="wheel_container">
-    <div id="wheel_wrapper">
-      <div id="wheel_part1">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/cause.svg" alt="CAUSE">
+<div id="wheel_wrapper">
+    <div class="wheel_part1" id="wheelie1">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/cause.png" alt="CAUSE">
       </div>
-      <div id="wheel_part2">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/clarity.svg" alt="CLARITY">
+      <div class="wheel_part2" id="wheelie2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/clarity.png" alt="CLARITY">
       </div>
-      <div id="wheel_part3">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/commitment.svg" alt="COMMITMENT">
+      <div class="wheel_part3" id="wheelie3">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/commitment.png" alt="COMMITMENT">
       </div>
-      <div id="wheel_part4">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/courage.svg" alt="COURAGE">
+      <div class="wheel_part4" id="wheelie4">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/animation/corage.png" alt="COURAGE">
       </div>
-    </div>
-  </div>
-
-  <div id="wheel_textfelder">
-    <div id="cause_textfield" class="wheel_textfield">
-      <?php the_field("cause_txt"); ?>
-    </div>
-    <div id="clarity_textfield" class="wheel_textfield">
-      <?php the_field("clarity_txt"); ?>
-    </div>
-    <div id="commitment_textfield" class="wheel_textfield">
-      <?php the_field("commitment_txt"); ?>
-    </div>
-    <div id="courage_textfield" class="wheel_textfield">
-      <?php the_field("courage_txt"); ?>
-    </div>
-  </div>
-
 </div>
 
+
 <div id="content_wrapper">
-  <?php if ( have_posts() ) : ?>
-  <?php while ( have_posts() ) : the_post(); ?>
-  <? the_content(); ?>
+<?php if ( have_posts() ) : ?>
+    <?php while ( have_posts() ) : the_post(); ?>
+        <? the_content(); ?>
     <?php endwhile; ?>
-    <?php endif; ?>
+<?php endif; ?>
 </div>
 
 
