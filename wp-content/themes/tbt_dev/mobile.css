@@ -73,7 +73,7 @@
   }
 }
 
-@@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 786px) {
   #logo img {
     width: 50%;
     height: auto;
@@ -106,7 +106,8 @@
   }
   .sow-headline {
     font-size: 200% !important;
-    line-height: normal !important margin-left: -7em;
+    line-height: normal !important;
+    margin-left: -7em;
   }
 
 	h1 {

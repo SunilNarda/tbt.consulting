@@ -5,11 +5,7 @@
 
 <?php get_template_part( 'navigation'); ?>
 
-<style>
-  #wheel_wrapper {
-    margin-top: 500px;
-  }
-</style>
+<h1><?php the_field("headline"); ?></h1>
 
 <div class="flex_container">
 

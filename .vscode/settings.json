@@ -1,0 +1,31 @@
+{
+    "deploy": {
+        "packages": [
+            {
+                "name": "Andreashagen.at_local",
+                "description": "Andi WP version",
+                "detail": "test package",
+                
+                "button": {
+                    "text": "Deploy auf 'Production'",
+                    "tooltip": "Click here to deploy to the target...",
+                    "targets": [ "Production" ]
+                }
+            }
+        ],
+
+       "targets": [
+            {
+                "type": "sftp",
+                "name": "Production",
+                "description": "A SFTP folder",
+
+                "dir": "/production",
+                "host": "ssh.server-he.de", "port": 21,
+                "secure": false,
+                "user": "wp12492813", "password": "7gN#S5rsEzZDJ!We"
+            }
+        ]
+
+    }
+}

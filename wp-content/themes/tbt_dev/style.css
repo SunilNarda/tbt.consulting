@@ -78,7 +78,7 @@ body {
 	top: 0px;
 	left: 0px;
 	width: 100%;
-	height: 13%;
+	height: 120px;
 	position: fixed;
 	background-color: #950A2B;
 	z-index: 9999;
@@ -247,7 +247,7 @@ h3 {
 /* <<<<< Wheel >>>>>> */
 
 #wheel_container {
-	padding-left: calc(50% - 200px);
+	padding-left: calc(25% - 200px);
 }
 
 #wheel_wrapper {
@@ -374,7 +374,8 @@ h3 {
 	width: 200px;
 	height: 100px;
 	opacity: 0;
-	transition: 0.7s;
+  transition: 0.7s;
+  padding-top: 160px;
 }
 
 .activated {
@@ -383,7 +384,7 @@ h3 {
 
 .flex_container{
 	display: flex;
-	
+	margin-top: 120px;
 }
 
 
